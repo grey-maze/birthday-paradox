@@ -54,7 +54,7 @@ $\ln(1 - x) \approx -x,$
 
 we obtain the approximation:
 
-$ P(\text{match}) \approx 1 - \exp\left(-\frac{n(n-1)}{2 \cdot 365}\right).$
+$P(\text{match}) \approx 1 - \exp\left(-\frac{n(n-1)}{2 \cdot 365}\right)$
 
 This reveals that collision probability grows approximately quadratically in $n$, explaining the rapid increase in shared birthdays as group size grows.
 
@@ -66,7 +66,7 @@ Using indicator random variables and linearity of expectation:
 
 $E[X] = \binom{n}{2} \cdot \frac{1}{365}$
 
-This shows that the expected number of matching pairs grows proportionally to \( n^2, clarifying the structural reason behind the paradox.
+This shows that the expected number of matching pairs grows proportionally to $n^2$, clarifying the structural reason behind the paradox.
 
 ---
 
@@ -101,7 +101,5 @@ birthday-paradox/
 ### Key Insight
 
 The paradox arises not from coincidence, but from the rapid quadratic growth in pairwise comparisons as the number of individuals increases.
-
-This project demonstrates how mathematical modelling, approximation theory, and simulation can transform an intuitive puzzle into a structured probabilistic analysis.
 
 ---
